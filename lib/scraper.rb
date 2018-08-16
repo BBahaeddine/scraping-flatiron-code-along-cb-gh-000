@@ -27,7 +27,10 @@ class Scraper
   end
   
   def make_course 
-    get_courses.each{|course| course}
+    get_courses.each{|course| 
+      Course.new
+      Course.
+    }
   end
   
 end
