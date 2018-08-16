@@ -30,7 +30,8 @@ class Scraper
     get_courses.each{|course| 
       cours = Course.new
       cours.title = course.css('h2').text 
-      cours.description = course.css
+      cours.description = course.css('p').text 
+      cours.
     }
   end
   
