@@ -26,7 +26,7 @@ class Scraper
     # coursesArray
   end
   
-  def make_course 
+  def make_courses
     get_courses.each{|course| 
       cours = Course.new
       cours.title = course.css('h2').text 
