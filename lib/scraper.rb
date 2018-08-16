@@ -22,7 +22,7 @@ class Scraper
   
   def get_course
     coursesArray = []
-    Nokogiri::HTML(open('http://learn-co-curriculum.github.io/site-for-scraping/courses')).css('#')
+    Nokogiri::HTML(open('http://learn-co-curriculum.github.io/site-for-scraping/courses')).css('#course-grid')
   end
   
 end
