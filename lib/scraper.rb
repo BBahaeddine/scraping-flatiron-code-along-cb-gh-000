@@ -29,7 +29,7 @@ class Scraper
   def make_course 
     get_courses.each{|course| 
       Course.new
-      Course.
+      Course.title = 
     }
   end
   
