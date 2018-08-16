@@ -16,6 +16,10 @@ class Scraper
     end
   end
   
+  def get_page
+    doc = open('')
+  end
+  
 end
 
 
